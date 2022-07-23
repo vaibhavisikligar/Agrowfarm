@@ -111,7 +111,7 @@
             class="info-img-box"
             data-aos="fade-up-right"
             data-aos-duration="2000"
-            data-aos-offset="500"
+            data-aos-offset="300"
           >
             <div class="box-img">
               <img src="img1.jpg" />
@@ -227,8 +227,19 @@
             <div class="box right-side-box">
               <div class="left-desp">
                 <div class="percentage-box">
-                  <h3>85%</h3>
+                  <div
+                    data-donutty
+                    data-radius="20"
+                    data-thickness="40"
+                    data-padding="0"
+                    data-round="false"
+                    data-color="green"
+                    data-value="85"
+                    data-text="85%"
+                    ...
+                  ></div>
                 </div>
+
                 <div class="desp-box">
                   <h4>Organic Solutions</h4>
                   <p>Lorem ipsum feugiat dolor sit amet.</p>
@@ -236,7 +247,17 @@
               </div>
               <div class="right-desp">
                 <div class="percentage-box">
-                  <h3>95%</h3>
+                  <div
+                    data-donutty
+                    data-radius="20"
+                    data-thickness="40"
+                    data-padding="0"
+                    data-round="false"
+                    data-color="green"
+                    data-value="95"
+                    data-text="95%"
+                    ...
+                  ></div>
                 </div>
                 <div class="desp-box">
                   <h4>Quality Agriculture</h4>
@@ -557,5 +578,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="donutty-jquery.js"></script>
   </body>
 </html>
